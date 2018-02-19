@@ -1,0 +1,44 @@
+._stars-list .list-group-item ._info {
+  display: flex;
+  flex-direction: column;
+}
+
+._stars-list ._star {
+  margin-bottom: 10px;
+}
+
+._stars-list ._star-info {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+._stars-list ._star-info:last-child {
+  border-bottom: none;
+}
+
+._info-block {
+  display: flex;
+  flex-direction: column;
+}
+
+._title {
+  text-align: center;
+}
+
+._title, ._header {
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  height: 50px;
+  padding: 10px;
+}
+
+._header {
+  display: flex;
+  flex-direction: row;
+}
+
+._header ._left {
+  margin-right: 5px;
+}
